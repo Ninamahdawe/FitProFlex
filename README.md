@@ -1,3 +1,3 @@
 FitProFlex
 
-Underveloped...we'll finalize soon
+Underveloped...we'll be finalized soon
