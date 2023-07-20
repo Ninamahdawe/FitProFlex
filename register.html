@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" href="assets/css/auth.css"> <!-- Include external CSS file for styling -->
+</head>
+<body>
+  <div class="container">
+    <h1>Registration</h1> <!-- Registration heading -->
+    <form id="registerForm"> <!-- Registration form -->
+      <label for="username">Username:</label> <!-- Username label -->
+      <input type="text" id="username" required> <!-- Username input field -->
+      <div class="error" id="usernameError"></div> <!-- Container to display username validation error (if any) -->
+
+      <label for="password">Password:</label> <!-- Password label -->
+      <input type="password" id="password" required> <!-- Password input field -->
+      <div class="error" id="passwordError"></div> <!-- Container to display password validation error (if any) -->
+
+      <button type="submit">Register</button> <!-- Submit button for form submission -->
+      <a href="/login.html">Have an account?</a> <!-- Link to the login page for users who already have an account -->
+    </form>
+  </div>
+
+  <!-- JavaScript code for form submission and validation can be added here -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script> <!-- Include SweetAlert2 library for displaying popups -->
+  <script src="assets/js/register.js"></script>
+</body>
+</html>
