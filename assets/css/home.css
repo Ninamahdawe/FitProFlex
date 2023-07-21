@@ -305,3 +305,11 @@ a{
     text-align: center;
     font-size: 18px;
 }
+.gal{
+    text-align: center;
+    color: red;
+}
+#six img{
+    width: 500px;
+    height: 500px;
+}

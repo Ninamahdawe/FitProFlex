@@ -43,3 +43,42 @@ function handleLogout() {
   });
 
 
+  // Sliders
+var heightSlider = document.getElementById("heightInput"); // The height slider
+var heightOutput = document.getElementById("heightOutput"); // The height output
+
+var weightSlider = document.getElementById("weightInput"); // The weight slider
+var weightOutput = document.getElementById("weightOutput"); // The weight output
+
+var ageSlider = document.getElementById("ageInput"); // The age slider
+var ageOutput = document.getElementById("ageOutput"); // The age output
+
+heightOutput.value = heightSlider.value; // Set the default value height
+weightOutput.value = weightSlider.value; // Set the default value weight
+ageOutput.value = ageSlider.value; // Set the default value age
+
+heightSlider.oninput = function() {
+    heightOutput.value = this.value; // Set new output value after moving slider
+}
+
+heightOutput.oninput = function() {
+    heightSlider.value = this.value; // Set new output value after moving slider
+}
+
+weightOutput.oninput = function() {
+    weightSlider.value = this.value; // Set new output value after moving slider
+}
+
+
+weightSlider.oninput = function() {
+    weightOutput.value = this.value; // Set new output value after moving slider
+}
+
+ageOutput.oninput = function() {
+    ageSlider.value = this.value; // Set new output value after moving slider
+}
+
+ageSlider.oninput = function() {
+    ageOutput.value = this.value; // Set new output value after moving slider
+}
+
