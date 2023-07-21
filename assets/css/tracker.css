@@ -45,3 +45,10 @@ body {
     align-items: center;
     height: 100vh;
 }
+#id{
+    padding: 0 9rem;
+}
+#id1{
+    margin-top: 6rem;
+    text-align: center;
+}

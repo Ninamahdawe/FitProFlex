@@ -9,13 +9,13 @@ function checkLoggedInUser() {
         title: 'Already Logged In!',
         text: 'You are already logged in. Redirecting to Home Page...',
         showConfirmButton: false,
-        timer: 1000, // 2 seconds delay before redirecting
+        timer: 1500, // 2 seconds delay before redirecting
       });
   
       // Redirect to home.html (or any other page you prefer) after 2 seconds
       setTimeout(() => {
         window.location.href = 'home.html';
-      }, 1000);
+      }, 1500);
     }
   }
   
