@@ -63,15 +63,4 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  display: none;
-}
-
-.exercise-planner,
-.drink-water-reminder {
-  display: none;
-}
-
-.exercise-planner.show,
-.drink-water-reminder.show {
-  display: block;
 }

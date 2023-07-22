@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const drinkWaterReminder = document.getElementById("drink-water-reminder");
 
     startButton.addEventListener("click", () => {
-        exercisePlanner.classList.toggle("show");
-        drinkWaterReminder.classList.toggle("show");
+        window.location.href = "page2.html";
     });
 });
